@@ -1,3 +1,4 @@
+         ;Continuously receive numbers as input until 0 is entered and print the maximum value among the entered numbers
          BR while
 input:   .BLOCK 2
 max:     .BLOCK 2
