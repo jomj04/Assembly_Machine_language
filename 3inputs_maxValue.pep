@@ -14,12 +14,12 @@ print3:  deco input3, d
 vs1_3:   lda input1, d 
          suba input3, d
          BRGE print1
-         BRLT print3 ; BR print3
+         BRLT print3 ;BR print3
 
 vs2_3:   lda input2, d
          suba input3, d
          BRGE print2
-         BRLT print3 ; BR print3
+         BRLT print3 ;BR print3
 
 main:    deci input1, d
          deci input2, d
@@ -27,6 +27,6 @@ main:    deci input1, d
          lda input1, d
          suba input2, d
          BRGE vs1_3
-         BRLT vs2_3 ; BR 2vs3
+         BRLT vs2_3 ;BR 2vs3
 
          .end
