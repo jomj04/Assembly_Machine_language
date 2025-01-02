@@ -1,3 +1,4 @@
+         ;Receive three numbers as input and print the maximum value among them
          BR main
 input1:  .BLOCK 2
 input2:  .BLOCK 2
